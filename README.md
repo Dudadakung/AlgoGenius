@@ -58,8 +58,4 @@
   </tr> 
 </table>
 
----
-
-<img width=350px height=170px src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dudadakung&layout=compact"/>
-
 <br/>
