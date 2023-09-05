@@ -39,26 +39,34 @@
     <td align="center"><a href="https://github.com/nahy-512"><img src="https://avatars.githubusercontent.com/nahy-512" width="100px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/kdhhuns2000"><img src="https://avatars.githubusercontent.com/kdhhuns2000" width="100px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/RyuKwanKon"><img src="https://avatars.githubusercontent.com/RyuKwanKon" width="100px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/ziiyouth"><img src="https://avatars.githubusercontent.com/ziiyouth" width="100px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/OJOJIN"><img src="https://avatars.githubusercontent.com/OJOJIN" width="100px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/MinchoGreenT"><img src="https://avatars.githubusercontent.com/MinchoGreenT" width="100px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/juwonleee"><img src="https://avatars.githubusercontent.com/juwonleee" width="100px;" alt=""></a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Ginieee"><b>Ginieee</b></a></td>
     <td align="center"><a href="https://github.com/nahy-512"><b>nahy-512</b></a></td>
     <td align="center"><a href="https://github.com/kdhhuns2000"><b>kdhhuns2000</b></a></td>
     <td align="center"><a href="https://github.com/RyuKwanKon"><b>RyuKwanKon</b></a></td>
-    <td align="center"><a href="https://github.com/ziiyouth"><b>ziiyouth</b></a></td>
-    <td align="center"><a href="https://github.com/OJOJIN"><b>OJOJIN</b></a></td>
-    <td align="center"><a href="https://github.com/MinchoGreenT"><b>MinchoGreenT</b></a></td>
-    <td align="center"><a href="https://github.com/juwonleee"><b>juwonleee</b></a></td>
   </tr>
   <tr> 
     <td align="center"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"></td>
     <td align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"></td>
     <td align="center"><img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"></td>
     <td align="center"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"></td>
+  </tr> 
+</table>
+<table>
+ <tr>
+    <td align="center"><a href="https://github.com/ziiyouth"><img src="https://avatars.githubusercontent.com/ziiyouth" width="100px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/OJOJIN"><img src="https://avatars.githubusercontent.com/OJOJIN" width="100px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/MinchoGreenT"><img src="https://avatars.githubusercontent.com/MinchoGreenT" width="100px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/juwonleee"><img src="https://avatars.githubusercontent.com/juwonleee" width="100px;" alt=""></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/ziiyouth"><b>ziiyouth</b></a></td>
+    <td align="center"><a href="https://github.com/OJOJIN"><b>OJOJIN</b></a></td>
+    <td align="center"><a href="https://github.com/MinchoGreenT"><b>MinchoGreenT</b></a></td>
+    <td align="center"><a href="https://github.com/juwonleee"><b>juwonleee</b></a></td>
+  </tr>
+  <tr> 
     <td align="center"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"></td>
     <td align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"></td>
     <td align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"></td>
