@@ -35,10 +35,10 @@
 
 <table>
  <tr>
-    <td align="center"><a href="https://github.com/Ginieee"><img src="https://avatars.githubusercontent.com/Ginieee" width="100px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/nahy-512"><img src="https://avatars.githubusercontent.com/nahy-512" width="100px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/kdhhuns2000"><img src="https://avatars.githubusercontent.com/kdhhuns2000" width="100px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/RyuKwanKon"><img src="https://avatars.githubusercontent.com/RyuKwanKon" width="100px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/Ginieee"><img src="https://avatars.githubusercontent.com/Ginieee" width="140px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/nahy-512"><img src="https://avatars.githubusercontent.com/nahy-512" width="140px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/kdhhuns2000"><img src="https://avatars.githubusercontent.com/kdhhuns2000" width="140px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/RyuKwanKon"><img src="https://avatars.githubusercontent.com/RyuKwanKon" width="140px;" alt=""></a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Ginieee"><b>Ginieee</b></a></td>
@@ -55,10 +55,10 @@
 </table>
 <table>
  <tr>
-    <td align="center"><a href="https://github.com/ziiyouth"><img src="https://avatars.githubusercontent.com/ziiyouth" width="100px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/OJOJIN"><img src="https://avatars.githubusercontent.com/OJOJIN" width="100px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/MinchoGreenT"><img src="https://avatars.githubusercontent.com/MinchoGreenT" width="100px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/juwonleee"><img src="https://avatars.githubusercontent.com/juwonleee" width="100px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/ziiyouth"><img src="https://avatars.githubusercontent.com/ziiyouth" width="140px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/OJOJIN"><img src="https://avatars.githubusercontent.com/OJOJIN" width="140px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/MinchoGreenT"><img src="https://avatars.githubusercontent.com/MinchoGreenT" width="140px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/juwonleee"><img src="https://avatars.githubusercontent.com/juwonleee" width="140px;" alt=""></a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/ziiyouth"><b>ziiyouth</b></a></td>
