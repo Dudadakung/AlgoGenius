@@ -44,5 +44,5 @@ for i in range(pow(N-2, 2)):
                     un_use_garden(k_position[0], k_position[1])
             un_use_garden(j_position[0], j_position[1])
     un_use_garden(i_position[0], i_position[1])
-        
+
 print(ans)
