@@ -1,0 +1,41 @@
+# 2023.10.23
+from sys import stdin
+from collections import deque
+
+N, M = map(int, stdin.readline().split())
+
+campus = []
+point = []
+visited = [[False for _ in range(M)] for i in range(N)] 
+ans = 0
+
+
+for i in range(N):
+    campus.append(stdin.readline())
+
+que = deque()
+
+for i in range(N):
+    for j in range(M):
+        if campus[i][j] == 'I':
+            que.append((i,j))
+            visited[i][j] = True
+            break
+    if que:
+        break
+
+while que:
+    y, x = que.popleft()
+
+    if campus[y][x] == 'P':
+        ans += 1
+
+    for ny, nx in (y - 1, x), (y + 1, x), (y, x - 1), (y, x + 1):
+        if ny >= 0 and ny < N and nx >= 0 and nx < M:
+            if campus[ny][nx] != 'X' and not visited[ny][nx]:
+                visited[ny][nx] = True
+                que.append((ny, nx))
+if ans == 0:
+    print('TT')
+else:
+    print(ans)
