@@ -1,0 +1,56 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.StringTokenizer;
+
+public class Main {
+    static BufferedReader bf;
+    static long a, b;
+    static boolean check;
+
+    public static void main(String[] args) throws IOException {
+        bf = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(bf.readLine());
+        a = Integer.parseInt(st.nextToken());
+        b = Integer.parseInt(st.nextToken());
+        solution2();
+        if(!check) System.out.println(-1);
+    }
+
+    public static void solution2() {
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(new Node(a,1));
+        while(!queue.isEmpty()){
+            Node node = queue.poll();
+            long current = node.getX();
+            long count = node.getY();
+            if(current > b) continue;
+            if(current == b){
+                check = true;
+                System.out.println(count);
+                break;
+            }
+            if(!(current * 2 > b)) queue.add(new Node(current * 2, count + 1));
+            if(!((current * 10) + 1 > b)) queue.add(new Node((current * 10) + 1, count + 1));
+        }
+    }
+    static class Node{
+        final private long x;
+        final private long y;
+
+        Node(long x, long y){
+            this.x = x;
+            this.y = y;
+        }
+
+        public long getX() {
+            return x;
+        }
+
+        public long getY(){
+            return y;
+        }
+    }
+}
