@@ -1,0 +1,25 @@
+# 2023.10.30
+from sys import stdin
+
+T = int(stdin.readline())
+
+def dinary_search(front, end, num):
+    mid = int((front + end) / 2)
+    if front > end:
+        return 0
+    if notes[mid] == num:
+        return 1
+    elif notes[mid] > num:
+        return dinary_search(front, mid - 1, num)
+    elif notes[mid] < num:
+        return dinary_search(mid + 1, end, num)
+
+while T > 0:
+    T -= 1
+    N = int(stdin.readline())
+    notes = list(map(int, stdin.readline().split()))
+    notes.sort()
+    M = int(stdin.readline())
+    search_notes = list(map(int, stdin.readline().split()))
+    for search_num in search_notes:
+        print(dinary_search(0, len(notes) - 1, search_num))
