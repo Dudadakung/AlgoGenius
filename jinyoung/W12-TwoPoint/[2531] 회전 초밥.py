@@ -10,10 +10,7 @@ def solve():
         i = 0
         for i in range(front, back + 1):
             cur.add(belt[i])
-        if C == belt[(i + 1) % N] or C == belt[(front - 1 + N) % N]:
-            if not C in cur:
-                cur.add(3001)
-        elif not C in cur:
+        if not C in cur:
             cur.add(3001)
         ans = max(ans, len(cur))
         front += 1
@@ -24,10 +21,8 @@ def solve():
         cur = set()
         for i in range(front, back + 1):
             cur.add(belt[i % N])
-        if C == belt[i % N + 1] or C == belt[front - 1 % N]:
-            if not C in cur:
-                cur.add(3001)
-        elif not C in cur:
+            
+        if not C in cur:
             cur.add(3001)
 
         ans = max(ans, len(cur))
