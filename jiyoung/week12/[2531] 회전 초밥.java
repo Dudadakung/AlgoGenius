@@ -12,7 +12,7 @@ public class Main {
         int k = Integer.parseInt(st.nextToken()); // 연속해서 먹는 접시 수
         int c = Integer.parseInt(st.nextToken()); // 쿠폰 번호
 
-        int sushi[] = new int[N]; // 벨트 배열
+        int sushi[] = new int[N]; // 초밥 벨트 배열
         int cnt = 0; // 초밥 종류 수
         int type[] = new int[d+1]; // 종류 별 개수
         int start = 0;
