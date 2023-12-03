@@ -1,0 +1,46 @@
+import java.io.*;;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        PriorityQueue<Pair> pq = new PriorityQueue<>(Comparator.comparing(Pair::getF).thenComparing(Pair::getS));
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(bf.readLine());
+        int n = Integer.parseInt(st.nextToken());
+        int m = Integer.parseInt(st.nextToken());
+        int[] answer = new int[n + 1];
+        for (int i = 0; i < n + 1; i++) answer[i] = 1;
+        for (int i = 0; i < m; i++) {
+            st = new StringTokenizer(bf.readLine());
+            int a = Integer.parseInt(st.nextToken());
+            int b = Integer.parseInt(st.nextToken());
+            pq.offer(new Pair(a, b));
+        }
+        while (!pq.isEmpty()) {
+            Pair p = pq.poll();
+            int first = p.getF();
+            int second = p.getS();
+            answer[second] = Math.max(answer[first] + 1, answer[second]);
+        }
+        for (int i = 1; i <= n; i++)
+            System.out.println(answer[i] + " ");
+    }
+
+    public static class Pair {
+        int f;
+        int s;
+
+        Pair(int f, int s) {
+            this.f = f;
+            this.s = s;
+        }
+
+        int getF() {
+            return this.f;
+        }
+
+        int getS() {
+            return this.s;
+        }
+    }
+}
