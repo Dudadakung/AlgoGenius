@@ -1,0 +1,73 @@
+import java.io.*;;
+import java.util.*;
+
+// 트리 특징 부모를 2개 이상 가질 수 없다.
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+        List<String> names = new ArrayList<>();
+        List<List<Integer>> nameDp = new ArrayList<>();
+        List<List<Integer>> answer = new ArrayList<>();
+        Map<String, Integer> nameMap= new HashMap<>();
+        StringBuffer sb = new StringBuffer();
+        Queue<Integer> q = new LinkedList<>();
+
+        StringTokenizer st = new StringTokenizer(bf.readLine());
+        int n = Integer.parseInt(st.nextToken());
+        int[] visit = new int[n];
+
+        st = new StringTokenizer(bf.readLine());
+        for(int i = 0; i < n; i++) names.add(st.nextToken());
+        Collections.sort(names);
+        for(int i = 0; i < n; i++){
+            nameMap.put(names.get(i), i);
+            nameDp.add(new ArrayList<>());
+            answer.add(new ArrayList<>());
+        };
+
+        st = new StringTokenizer(bf.readLine());
+        int m = Integer.parseInt(st.nextToken());
+        for (int i = 0; i < m; i++){
+            st = new StringTokenizer(bf.readLine());
+            int start = nameMap.get(st.nextToken());
+            int end = nameMap.get(st.nextToken());
+            nameDp.get(end).add(start);
+            visit[start]++;
+        }
+
+        int c = 0;
+        for (int i = 0; i < n; i++) {
+            if (visit[i] == 0) {
+                q.offer(i);
+                sb.append(names.get(i)).append(" ");
+                c++;
+            }
+        }
+        sb.deleteCharAt(sb.length()-1);
+        System.out.println(c);
+        System.out.println(sb);
+
+        while (!q.isEmpty()){
+            int current = q.poll();
+            for (int next : nameDp.get(current)){
+                visit[next]--;
+                if(visit[next] == 0){
+                    q.offer(next);
+                    answer.get(current).add(next);
+                }
+            }
+        }
+
+        for (int i = 0; i < n; i++){
+            sb = new StringBuffer();
+            sb.append(names.get(i)).append(" ");
+            sb.append(answer.get(i).size());
+            Collections.sort(answer.get(i));
+            for (int value : answer.get(i)){
+                sb.append(" ").append(names.get(value));
+            }
+            System.out.println(sb);
+        }
+    }
+}
